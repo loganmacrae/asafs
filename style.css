@@ -1,0 +1,111 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+.portfolio-header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio-title {
+    font-size: 2.5rem;
+}
+
+.portfolio-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.portfolio-nav ul li {
+    margin-left: 20px;
+}
+
+.portfolio-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.portfolio-nav ul li a:hover {
+    color: #ffd700; /* Change color on hover */
+}
+
+#aboutme {
+    margin: 40px;
+    text-align: center;
+}
+
+.About {
+    border: solid black;
+    margin: 40px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.About:hover {
+    margin: 38px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+#projects {
+    border: solid black;
+    margin: 40px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#projects:hover {
+    margin: 38px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.project1 {
+    margin-top: 20px;
+    width: 700px;
+    height: 700px;
+    text-align: center;
+}
+
+#Skills {
+    border: solid black;
+    margin: 40px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#Skills:hover {
+    margin: 38px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+#Contact {
+    border: solid black;
+    margin: 40px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#Contact:hover {
+    margin: 38px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
